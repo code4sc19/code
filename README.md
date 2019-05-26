@@ -8,8 +8,6 @@ Structure biased self-attention network (# Anonymized #)
 ### Training and test
 - To train the model, please prepare sentence compression data by following the intruction [here](https://github.com/code4sc19/data)
 - Then, runing the following:
-`python train.py --train_s==train_s.txt --train_l==train_l --train_dep==train_dep \
-                 --val_s==val_s.txt --val_l==val_l --val_dep==val_dep \
-                 --test_s==test_s.txt --test_l==test_l --test_dep==test_dep`
+`python train.py --train_s==train_s.txt --train_l==train_l --val_s==val_s.txt --val_l==val_l --test_s==test_s.txt --test_l==test_l`
                  
 ## State-of-the-art-result Reproduction
